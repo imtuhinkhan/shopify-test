@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "FY"
+client_id = "07a9bee7d1e642ed644a8d0d41d78970"
+application_url = "https://proportion-baseball-preventing-asp.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://proportion-baseball-preventing-asp.trycloudflare.com/auth/callback",
+  "https://proportion-baseball-preventing-asp.trycloudflare.com/auth/shopify/callback",
+  "https://proportion-baseball-preventing-asp.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "teton-private-limited.myshopify.com"

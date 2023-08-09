@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "enchan"
+client_id = "34e446d6aa8f95ad1422b14f589b6d26"
+application_url = "https://pensions-epinions-less-eg.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://pensions-epinions-less-eg.trycloudflare.com/auth/callback",
+  "https://pensions-epinions-less-eg.trycloudflare.com/auth/shopify/callback",
+  "https://pensions-epinions-less-eg.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quick-start-c38d6d9a.myshopify.com"
