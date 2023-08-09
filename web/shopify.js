@@ -23,7 +23,7 @@ const shopify = shopifyApp({
     apiKey: '07a9bee7d1e642ed644a8d0d41d78970',
     apiSecretKey: '561d56b6745654dda1b68e0bc79a72ba',
     scopes: [ 'write_products' ],
-    hostName: 'vendors-hosts-pamela-privacy.trycloudflare.com',
+    hostName: 'https://shopify.seemyworks.com/',
   },
   auth: {
     path: "/api/auth",
