@@ -2,7 +2,7 @@
 
 name = "FY"
 client_id = "07a9bee7d1e642ed644a8d0d41d78970"
-application_url = "https://proportion-baseball-preventing-asp.trycloudflare.com"
+application_url = "https://vendors-hosts-pamela-privacy.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://proportion-baseball-preventing-asp.trycloudflare.com/auth/callback",
-  "https://proportion-baseball-preventing-asp.trycloudflare.com/auth/shopify/callback",
-  "https://proportion-baseball-preventing-asp.trycloudflare.com/api/auth/callback"
+  "https://vendors-hosts-pamela-privacy.trycloudflare.com/auth/callback",
+  "https://vendors-hosts-pamela-privacy.trycloudflare.com/auth/shopify/callback",
+  "https://vendors-hosts-pamela-privacy.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
